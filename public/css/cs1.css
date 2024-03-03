@@ -1,0 +1,1549 @@
+
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+
+
+.text-planos{
+    font-size:26px ;
+    margin-bottom: 25px;
+    padding:5px;
+    background-color:#007bff;
+    color:white;
+    border-radius:5px;
+    text-align:center;
+}
+
+.inline{
+    display: inline;
+}
+
+.texto-branco{
+    color: white;
+}
+
+.borda-azul{
+    padding: 5px;
+    background-color: #007bff;
+}
+.ullista:hover{
+    background-color: #080f35;
+}
+
+.ullista2:hover{
+    background-color: #080f35;
+}
+
+
+.hov:hover .branco{
+    color: white;
+}
+
+p{
+    color:black;
+}
+.p1{
+
+    color: white;
+}
+.p2{
+
+    color: white;
+}
+.p3{
+ 
+    color: white;
+}
+
+.pesquisaa{
+    display:inline;font-size:18px;
+}
+
+.intro{
+    font-size:36px ;margin-bottom: 25px;margin-top:25px;
+}
+#bd{
+   background-color: rgb(180, 180, 180);
+   height:1500px;
+  
+}
+.link-botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.link-botao:hover {
+    background-color: #0056b3;
+}
+
+.botpasspagina:hover{
+    background-color:rgb(197, 197, 197);
+}
+.botbaixar{
+    background-color: rgb(217, 255, 213);
+}
+.botbaixar2{
+    background-color: rgb(217, 255, 213);
+}
+
+.botexcluir{
+    background-color: rgb(255, 175, 175);
+}
+.botbaixar:hover{
+    background-color: rgb(116, 255, 101);;
+   }
+.botbaixar2:hover{
+background-color: rgb(116, 255, 101);;
+}
+.botexcluir:hover{
+    background-color: rgb(255, 72, 72);
+   }
+.botupload:hover{
+    background-color:rgb(197, 197, 197);
+}
+
+.barramemoria{
+    width: 80%;
+    height: 20px;
+    background-color:black;
+    
+    margin: auto;
+}
+
+.valormemoria{
+
+    
+    height: 10px;
+    position: relative;
+    top: 5px;
+    left:5px;
+    background-color:white;
+
+    
+}
+
+.usomemoria{
+   
+    color:white;
+    margin-top: 10px;
+   text-align: center;
+
+}
+
+.menuprincipal{
+background-color:  #080f35;}
+
+.mt-1{
+    margin-top: 5px;
+}
+
+@media screen and (min-width: 400px) and (max-width: 680px) {
+    
+    #bd{
+        height: 1650px;
+    }
+    #botescondido{
+        position: fixed;
+        left: 10px;
+        top: 20px;
+        width: 40px;
+        height: 25px;
+        z-index: 999;
+        padding: 5px;
+        background-color: rgb(255, 255, 255);
+    }
+    #botescondido:hover{
+        background-color: rgb(228, 228, 228);
+        cursor: pointer;
+        
+    }
+    #botescondidofaix0{
+        width: 40px;
+        height: 5px;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    #botescondidofaix1{
+        margin-top: 5px;
+        width: 40px;
+        height: 5px;
+        background-color: rgb(0, 0, 0);
+    }
+    #telazul{
+        position: fixed;
+        top: 0;
+        width: 250px;
+        height: 100%;
+        z-index: 999;
+        left: -250px;
+    }
+
+    
+
+    .menuprincipal{
+       position: fixed;
+        width: 250px;
+        height: 800px;
+       
+        left: -250px;
+    
+    }
+    .p1{
+        text-align: right;
+        font-size: 26px;
+        padding-top: 30px;
+        padding-right: 25px;
+       
+    }
+    .p2{
+        text-align: right;
+        font-size: 13px;
+        padding-top: 2px;
+        padding-right: 25px;
+       
+    }
+    .p3{
+        position: relative;
+        top: 10px;
+        margin-right: 50px;
+        font-size: 15px;
+        text-align: right;
+        
+    }
+    .arm1{
+        height: 10px;
+        width: 150px;
+        background-color: white;
+        border-radius: 2px;
+        margin-left: 50px;
+    }
+    .arm2{
+        height: 8px;
+        width: 140px;
+        background-color: rgb(0, 162, 255);
+        border-radius: 2px;
+        margin-left: 55px;
+        position: relative;
+        top: -9px;
+    }
+   .hrprincipal{
+    width: 400px;
+    margin-left:0px ;
+   }
+    #esp{
+        margin-top: 40px;
+    }
+    .ulmenu{
+        width: 250px;
+        height: 40px;
+        cursor: pointer;
+        margin-top: 10px;
+        
+        
+    }
+    .ullista{
+        width: 400px;
+        height: 80px;
+        
+        margin-top: 10px;
+        background-color: rgb(197, 197, 197);
+   }
+
+   .ullista2{
+    width: 400px;
+    height: 80px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: rgb(197, 197, 197);
+    }
+    .ullista2:hover{
+        width: 400px;
+        height: 80px;
+        cursor: pointer;
+        margin-top: 10px;
+       
+   }
+   .plista{
+    
+    text-align: center;
+    max-width: 380px; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    
+   }
+   .divisor{
+    width: 380px;
+    height: 50px;
+    margin-left: 10px;
+    
+   }
+   .botbaixar{
+    position: relative;
+    top: 5px;
+    left: 75px;
+    width: 90px;
+    height: 20px;
+    margin-left: 20px;
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+   }
+   .botbaixar2{
+    position: relative;
+    top: -5px;
+    right: 140px;
+    float: right;
+    width: 120px;
+    height: 25px;
+    
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+   }
+   .botexcluir{
+    position: relative;
+    top: 5px;
+    left: 75px;
+    width: 90px;
+    height: 20px;
+    margin-left: 20px;
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+   }
+   
+
+   .botpasspagina{
+    position: relative;
+    top: 45px;
+    left: 40px;
+    width: 140px;
+    height: 20px;
+    margin-left: 10px;
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+    background-color: white;
+
+   }
+   .botupload{
+    margin-left:145px ;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 180px;
+    height: 25px;
+    background-color:white ;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+   }
+    .select{
+        width: 250px;
+        height: 40px;
+        cursor: pointer;
+        margin-top: 10px;
+        background-color: #007bff;
+
+    }
+    
+    ul:hover .p3{
+       
+        background-color:rgba(70, 72, 72, 255);
+        color: white;
+    }
+    .ulmenu:hover{
+       
+        background-color:rgba(70, 72, 72, 255);
+        
+    }
+    .select:hover{
+        background-color:rgba(70, 72, 72, 255);
+        
+    }
+    .imagem{
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: -7px;
+        margin-left: 40px;
+    }
+
+ 
+    #principal{
+       
+        width: 80%;
+        
+        position: relative;
+        left: 80px;
+        top: 0;
+        
+        
+    }
+    .enviaarquivos{
+        background-color: rgb(212, 212, 212);
+        height: 115px;
+        width: 350px;
+        position: relative;
+        left: 50px;
+        top: 10px;
+        border-radius: 5px;
+        display: none;
+    }
+}
+@media screen and (min-width: 680px) and (max-width: 959px) {
+   
+    #botescondido{
+        position: fixed;
+        left: 20px;
+        top: 20px;
+        width: 40px;
+        height: 25px;
+        z-index: 999;
+        padding: 15px;
+        background-color: rgb(255, 255, 255);
+    }
+    #botescondido:hover{
+        background-color: rgb(228, 228, 228);
+        cursor: pointer;
+        
+    }
+    #botescondidofaix0{
+        width: 40px;
+        height: 5px;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    #botescondidofaix1{
+        margin-top: 5px;
+        width: 40px;
+        height: 5px;
+        background-color: rgb(0, 0, 0);
+    }
+    #telazul{
+        position: relative;
+        width: 250px;
+        height: 100%;
+        z-index: 999;
+        left: -250px;
+    }
+
+    .intro{
+        margin-left:55px;
+    }
+
+    .menuprincipal{
+       position: fixed;
+        width: 250px;
+        height: 800px;
+       
+        left: -250px;
+    
+    }
+    .p1{
+        text-align: right;
+        font-size: 26px;
+        padding-top: 30px;
+        padding-right: 25px;
+        
+    }
+    .p2{
+        text-align: right;
+        font-size: 13px;
+        padding-top: 2px;
+        padding-right: 25px;
+        
+    }
+    .p3{
+        position: relative;
+        top: 10px;
+        margin-right: 50px;
+        font-size: 15px;
+        text-align: right;
+        
+    }
+    .arm1{
+        height: 10px;
+        width: 150px;
+        background-color: white;
+        border-radius: 2px;
+        margin-left: 50px;
+    }
+    .arm2{
+        height: 8px;
+        width: 140px;
+        background-color: rgb(0, 162, 255);
+        border-radius: 2px;
+        margin-left: 55px;
+        position: relative;
+        top: -9px;
+    }
+   .hrprincipal{
+    width: 600px;
+    margin-left:0px ;
+   }
+    #esp{
+        margin-top: 40px;
+    }
+    .ulmenu{
+        width: 250px;
+        height: 40px;
+        cursor: pointer;
+        margin-top: 10px;
+        
+        
+    }
+    .ullista{
+        width: 600px;
+        height: 60px;
+        
+        margin-top: 10px;
+        background-color: rgb(197, 197, 197);
+   }
+
+   .ullista2{
+    width: 600px;
+        height: 60px;
+        
+        
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: rgb(197, 197, 197);
+    }
+    .ullista2:hover{
+        width: 600px;
+        height: 60px;
+        
+        cursor: pointer;
+        margin-top: 10px;
+        
+   }
+   .plista{
+    
+    margin-left: 15px;
+    max-width: 580px; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    
+   }
+   .divisor{
+    width: 400px;
+    height: 60px;
+    
+   }
+   .botbaixar{
+    position: relative;
+    top: -42px;
+    left: 400px;
+    width: 70px;
+    height: 25px;
+    margin-left: 20px;
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+   }
+   .botbaixar2{
+    position: relative;
+    top: -42px;
+    right: 20px;
+    float: right;
+    width: 70px;
+    height: 25px;
+    
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+   }
+   .botexcluir{
+    position: relative;
+    top: -42px;
+    left: 400px;
+    width: 70px;
+    height: 25px;
+    margin-left: 20px;
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+   }
+   .botpasspagina{
+    position: relative;
+    top: 45px;
+    left: 240px;
+    width: 140px;
+    height: 30px;
+    margin-left: 40px;
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+    background-color: white;
+
+   }
+   .botupload{
+    margin-left:50px ;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 380px;
+    height: 35px;
+    background-color:white ;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+   }
+    .select{
+        width: 250px;
+        height: 40px;
+        cursor: pointer;
+        margin-top: 10px;
+        background-color: #007bff;
+
+    }
+    
+    ul:hover .p3{
+       
+        background-color:rgba(70, 72, 72, 255);
+        color: white;
+    }
+    .ulmenu:hover{
+       
+        background-color:rgba(70, 72, 72, 255);
+        
+    }
+    .select:hover{
+        background-color:rgba(70, 72, 72, 255);
+        
+    }
+    .imagem{
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: -7px;
+        margin-left: 40px;
+    }
+
+     
+
+    #principal{
+       
+        width: 85%;
+        position: relative;
+        left: 8%;
+        top: 0;
+        
+        
+    }
+    .enviaarquivos{
+        background-color: rgb(212, 212, 212);
+        height: 115px;
+        width: 350px;
+        position: relative;
+        left: 250px;
+        top: 10px;
+        border-radius: 5px;
+        display: none;
+    }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1300px) {
+    
+    #telazul{
+        position: fixed;
+        top:0;
+        width: 250px;
+        height: 100%;
+        z-index: 999;
+    }
+
+    .menuprincipal{
+       position: fixed;
+        width: 250px;
+        height: 800px;
+      
+        
+    
+    }
+    .p1{
+        text-align: right;
+        font-size: 26px;
+        padding-top: 30px;
+        padding-right: 25px;
+       
+    }
+    .p2{
+        text-align: right;
+        font-size: 13px;
+        padding-top: 2px;
+        padding-right: 25px;
+        
+    }
+    .p3{
+        position: relative;
+        top: 10px;
+        margin-right: 50px;
+        font-size: 15px;
+        text-align: right;
+       
+    }
+    .arm1{
+        height: 10px;
+        width: 150px;
+        background-color: white;
+        border-radius: 2px;
+        margin-left: 50px;
+    }
+    .arm2{
+        height: 8px;
+        width: 140px;
+        background-color: rgb(0, 162, 255);
+        border-radius: 2px;
+        margin-left: 55px;
+        position: relative;
+        top: -9px;
+    }
+   .hrprincipal{
+    width: 600px;
+    margin-left:0px ;
+   }
+    #esp{
+        margin-top: 40px;
+    }
+    .ulmenu{
+        width: 250px;
+        height: 40px;
+        cursor: pointer;
+        margin-top: 10px;
+        
+        
+    }
+    .ullista{
+        width: 600px;
+        height: 60px;
+        
+        margin-top: 10px;
+        background-color: rgb(197, 197, 197);
+   }
+   .ullista2{
+    width: 600px;
+        height: 60px;
+        
+        
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: rgb(197, 197, 197);
+    }
+    .ullista2:hover{
+        width: 600px;
+        height: 60px;
+        
+        cursor: pointer;
+        margin-top: 10px;
+       
+   }
+   .plista{
+    
+    margin-left: 15px;
+    max-width: 580px; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    
+   }
+   .divisor{
+    width: 400px;
+    height: 60px;
+    
+   }
+   .botbaixar{
+    position: relative;
+    top: -42px;
+    left: 400px;
+    width: 70px;
+    height: 25px;
+    margin-left: 20px;
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+   }
+   .botbaixar2{
+    position: relative;
+    top: -42px;
+    right: 20px;
+    float: right;
+    width: 70px;
+    height: 25px;
+    
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+   }
+   .botexcluir{
+    position: relative;
+    top: -42px;
+    left: 400px;
+    width: 70px;
+    height: 25px;
+    margin-left: 20px;
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+   }
+   .botpasspagina{
+    position: relative;
+    top: 45px;
+    left: 240px;
+    width: 140px;
+    height: 30px;
+    margin-left: 40px;
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+    background-color: white;
+
+   }
+   .botupload{
+    margin-left:50px ;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 380px;
+    height: 35px;
+    background-color:white ;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+   }
+    .select{
+        width: 250px;
+        height: 40px;
+        cursor: pointer;
+        margin-top: 10px;
+        background-color: #007bff;
+
+    }
+    
+    ul:hover .p3{
+       
+        background-color:rgba(70, 72, 72, 255);
+        color: white;
+    }
+    .ulmenu:hover{
+       
+        background-color:rgba(70, 72, 72, 255);
+        
+    }
+    .select:hover{
+        background-color:rgba(70, 72, 72, 255);
+        
+    }
+    .imagem{
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: -7px;
+        margin-left: 40px;
+    }
+
+     
+
+    #principal{
+       
+        width: 59%;
+        position: relative;
+        left: 31%;
+        top: 0;
+        
+        
+    }
+    .enviaarquivos{
+        background-color: rgb(212, 212, 212);
+        height: 115px;
+        width: 350px;
+        position: relative;
+        left: 250px;
+        top: 10px;
+        border-radius: 5px;
+        display: none;
+    }
+}
+@media screen and (min-width: 1300px) and (max-width: 1600px) {
+
+    #telazul{
+        position: fixed;
+        top:0;
+        width: 250px;
+        height: 100%;
+        z-index: 999;
+    }
+
+    .menuprincipal{
+       position: fixed;
+        width: 250px;
+        height: 800px;
+       
+        
+    
+    }
+    .p1{
+        text-align: right;
+        font-size: 26px;
+        padding-top: 30px;
+        padding-right: 25px;
+        
+    }
+    .p2{
+        text-align: right;
+        font-size: 13px;
+        padding-top: 2px;
+        padding-right: 25px;
+        
+    }
+    .p3{
+        position: relative;
+        top: 10px;
+        margin-right: 50px;
+        font-size: 15px;
+        text-align: right;
+        
+    }
+    .arm1{
+        height: 10px;
+        width: 150px;
+        background-color: white;
+        border-radius: 2px;
+        margin-left: 50px;
+    }
+    .arm2{
+        height: 8px;
+        width: 140px;
+        background-color: rgb(0, 162, 255);
+        border-radius: 2px;
+        margin-left: 55px;
+        position: relative;
+        top: -9px;
+    }
+    .hrprincipal{
+        width: 900px;
+        margin-left:0px ;
+       }
+    #esp{
+        margin-top: 40px;
+    }
+    .ulmenu{
+        width: 250px;
+        height: 40px;
+        cursor: pointer;
+        margin-top: 10px;
+        
+        
+    }
+    .ullista{
+        width: 900px;
+        height: 60px;
+        
+        margin-top: 10px;
+        background-color: rgb(197, 197, 197);
+   }
+   .ullista2{
+    width: 900px;
+    height: 60px;
+    
+        
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: rgb(197, 197, 197);
+    }
+    .ullista2:hover{
+        width: 900px;
+        height: 60px;
+        
+        cursor: pointer;
+        margin-top: 10px;
+        
+   }
+   .plista{
+    
+    margin-left: 15px;
+    max-width: 880px; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    
+   }
+   .divisor{
+    width: 600px;
+    height: 60px;
+    
+   }
+   .botbaixar{
+    position: relative;
+    top: -45px;
+    left: 600px;
+    width: 80px;
+    height: 30px;
+    margin-left: 40px;
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+   }
+   .botbaixar2{
+    position: relative;
+    top: -45px;
+    right: 20px;
+    float: right;
+    width: 80px;
+    height: 30px;
+    
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+   }
+   .botexcluir{
+    position: relative;
+    top: -45px;
+    left: 600px;
+    width: 80px;
+    height: 30px;
+    margin-left: 40px;
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+   }
+   .botpasspagina{
+    position: relative;
+    top: 45px;
+    left: 400px;
+    width: 160px;
+    height: 40px;
+    margin-left: 40px;
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+    background-color: white;
+
+   }
+   .botupload{
+    margin-left:645px ;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 180px;
+    height: 40px;
+    background-color:white ;
+    border: 0px;
+    border-radius: 3px;
+    cursor: pointer;
+   }
+    .select{
+        width: 250px;
+        height: 40px;
+        cursor: pointer;
+        margin-top: 10px;
+        background-color: #007bff;
+
+    }
+    
+    ul:hover .p3{
+       
+        background-color:rgba(70, 72, 72, 255);
+        color: white;
+    }
+    .ulmenu:hover{
+       
+        background-color:rgba(70, 72, 72, 255);
+        
+    }
+    .select:hover{
+        background-color:rgba(70, 72, 72, 255);
+        
+    }
+    .imagem{
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: -7px;
+        margin-left: 40px;
+    }
+
+     
+
+    #principal{
+       
+        width: 75%;
+        position: relative;
+        left: 21%;
+        top: 0;
+        
+        
+    }
+    .enviaarquivos{
+        background-color: rgb(212, 212, 212);
+        height: 115px;
+        width: 350px;
+        position: relative;
+        left: 550px;
+        top: 10px;
+        border-radius: 5px;
+        display: none;
+    }
+}
+
+
+
+@media screen and (min-width: 1600px) and (max-width: 1920px) {
+    #telazul{
+        position: fixed;
+        top:0;
+        width: 300px;
+        height: 100%;
+        z-index: 999;
+        
+    }
+
+    .menuprincipal{
+       position: fixed;
+        width: 300px;
+        height: 1200px;
+       
+        
+    
+    }
+    .p1{
+        text-align: right;
+        font-size: 30px;
+        padding-top: 30px;
+        padding-right: 25px;
+        
+    }
+    .p2{
+        text-align: right;
+        font-size: 16px;
+        padding-top: 2px;
+        padding-right: 25px;
+        
+    }
+    .p3{
+        position: relative;
+        top: 10px;
+        margin-right: 50px;
+        font-size: 18px;
+        text-align: right;
+        
+    }
+    .arm1{
+        height: 10px;
+        width: 200px;
+        background-color: white;
+        border-radius: 2px;
+        margin-left: 50px;
+    }
+    .arm2{
+        height: 8px;
+        width: 190px;
+        background-color: rgb(0, 162, 255);
+        border-radius: 2px;
+        margin-left: 55px;
+        position: relative;
+        top: -9px;
+    }
+    .hrprincipal{
+        width: 1195px;
+        margin-left:0px ;
+       }
+    #esp{
+        margin-top: 40px;
+    }
+    .ulmenu{
+        width: 300px;
+        height: 55px;
+        cursor: pointer;
+        margin-top: 10px;
+        
+        
+    }
+    .ullista{
+        width: 1195px;
+        height: 60px;
+        
+        margin-top: 10px;
+        background-color: rgb(197, 197, 197);
+   }
+   .ullista2{
+    width: 1195px;
+    height: 60px;
+    
+    
+        
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: rgb(197, 197, 197);
+    }
+    .ullista2:hover{
+        width: 1195px;
+        height: 60px;
+        
+        
+        cursor: pointer;
+        margin-top: 10px;
+        
+   }
+   .plista{
+    
+    margin-left: 15px;
+    max-width: 1180px; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    
+   }
+   .divisor{
+    width: 600px;
+    height: 60px;
+    
+   }
+   .botbaixar{
+    position: relative;
+    top: -45px;
+    left: 900px;
+    width: 80px;
+    height: 30px;
+    margin-left: 40px;
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+   }
+   .botbaixar2{
+    position: relative;
+    top: -45px;
+    right: 20px;
+    float: right;
+    width: 80px;
+    height: 30px;
+    
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+   }
+   .botexcluir{
+    position: relative;
+    top: -45px;
+    left: 900px;
+    width: 80px;
+    height: 30px;
+    margin-left: 40px;
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+   }
+   .botpasspagina{
+    position: relative;
+    top: 45px;
+    left: 400px;
+    width: 160px;
+    height: 40px;
+    margin-left: 40px;
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+    background-color: white;
+
+   }
+   .botupload{
+    margin-left:940px ;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 180px;
+    height: 40px;
+    background-color:white ;
+    border: 0px;
+    border-radius: 3px;
+    cursor: pointer;
+   }
+    .select{
+        width: 300px;
+        height: 55px;
+        cursor: pointer;
+        margin-top: 10px;
+        background-color: #007bff;
+
+    }
+    
+    ul:hover .p3{
+       
+        background-color:rgba(70, 72, 72, 255);
+        color: white;
+    }
+    .ulmenu:hover{
+       
+        background-color:rgba(70, 72, 72, 255);
+        
+    }
+    .select:hover{
+        background-color:rgba(70, 72, 72, 255);
+        
+    }
+
+    .imagem{
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: -7px;
+        margin-left: 50px;
+    }
+
+    #principal{
+       
+        width: 75%;
+        position: relative;
+        left: 20%;
+        top: 0;
+        
+        
+    }
+    .enviaarquivos{
+        background-color: rgb(212, 212, 212);
+        height: 115px;
+        width: 350px;
+        position: relative;
+        left: 845px;
+        top: 10px;
+        border-radius: 5px;
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1920px)  {
+    #telazul{
+        position: fixed;
+        top:0;
+        width: 300px;
+        height: 100%;
+       
+    }
+
+    .menuprincipal{
+       position: fixed;
+        width: 300px;
+        height: 1400;
+        
+        
+    
+    }
+    .p1{
+        text-align: right;
+        font-size: 30px;
+        padding-top: 30px;
+        padding-right: 25px;
+        
+    }
+    .p2{
+        text-align: right;
+        font-size: 16px;
+        padding-top: 2px;
+        padding-right: 25px;
+       
+    }
+    .p3{
+        position: relative;
+        top: 10px;
+        margin-right: 50px;
+        font-size: 18px;
+        text-align: right;
+        
+    }
+    .arm1{
+        height: 10px;
+        width: 200px;
+        background-color: white;
+        border-radius: 2px;
+        margin-left: 50px;
+    }
+    .arm2{
+        height: 8px;
+        width: 190px;
+        background-color: rgb(0, 162, 255);
+        border-radius: 2px;
+        margin-left: 55px;
+        position: relative;
+        top: -9px;
+    }
+    .hrprincipal{
+        width: 1195px;
+        margin-left:0px ;
+       }
+    #esp{
+        margin-top: 40px;
+    }
+    .ulmenu{
+        width: 300px;
+        height: 55px;
+        cursor: pointer;
+        margin-top: 10px;
+        
+        
+    }
+    .ullista{
+        width: 1195px;
+        height: 60px;
+        
+        margin-top: 10px;
+        background-color: rgb(197, 197, 197);
+   }
+   .ullista2{
+    width: 1195px;
+    height: 60px;
+    
+    
+        
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: rgb(197, 197, 197);
+    }
+    .ullista2:hover{
+        width: 1195px;
+        height: 60px;
+        
+        
+        cursor: pointer;
+        margin-top: 10px;
+        
+   }
+   
+   .plista{
+    
+    margin-left: 15px;
+    max-width: 1180px; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    
+   }
+   .divisor{
+    width: 600px;
+    height: 60px;
+    
+   }
+   .botbaixar{
+    position: relative;
+    top: -45px;
+    left: 900px;
+    width: 80px;
+    height: 30px;
+    margin-left: 40px;
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+   }
+   .botbaixar2{
+    position: relative;
+    top: -45px;
+    right: 20px;
+    float: right;
+    width: 80px;
+    height: 30px;
+    
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+   }
+   .botexcluir{
+    position: relative;
+    top: -45px;
+    left: 900px;
+    width: 80px;
+    height: 30px;
+    margin-left: 40px;
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+   }
+   
+   .botpasspagina{
+    position: relative;
+    top: 45px;
+    left: 400px;
+    width: 160px;
+    height: 40px;
+    margin-left: 40px;
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+    background-color: white;
+
+   }
+   .botupload{
+    margin-left:940px ;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 180px;
+    height: 40px;
+    background-color:white ;
+    border: 0px;
+    border-radius: 3px;
+    cursor: pointer;
+   }
+    .select{
+        width: 300px;
+        height: 55px;
+        cursor: pointer;
+        margin-top: 10px;
+        background-color: #007bff;
+
+    }
+    
+    ul:hover .p3{
+       
+        background-color:rgba(70, 72, 72, 255);
+        color: white;
+    }
+    .ulmenu:hover{
+       
+        background-color:rgba(70, 72, 72, 255);
+        
+    }
+    .select:hover{
+        background-color:rgba(70, 72, 72, 255);
+        
+    }
+
+    .imagem{
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: -7px;
+        margin-left: 50px;
+    }
+
+    #principal{
+       
+        width: 70%;
+        position: relative;
+        left: 25%;
+        top: 0;
+        
+        
+    }
+    .enviaarquivos{
+        background-color: rgb(212, 212, 212);
+        height: 115px;
+        width: 350px;
+        position: relative;
+        left: 845px;
+        top: 10px;
+        border-radius: 5px;
+        display: none;
+    }
+
+
+}
