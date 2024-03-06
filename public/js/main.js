@@ -2,13 +2,14 @@
 let menu = false;
 
 let bot_op=0;
+let alt=0;
 
 function funabrir() {
     tela = document.getElementById("menuprinc");
     bot = document.getElementById("botescondido");
 
     const larguraTela = window.innerWidth;
-
+    const alturaTela = window.innerHeight;
 
     if (larguraTela > 400 && larguraTela < 680) {
 
@@ -22,8 +23,6 @@ function funabrir() {
             bot.style.left = '10px';
            
         }
-        
-        
       
     }
     if (larguraTela > 680 && larguraTela < 959) {
@@ -32,13 +31,23 @@ function funabrir() {
           
            tela.style.left = '0px';
            bot.style.left = '270px';
+           if(alturaTela<600){
+            tela.style.left = '0px';
+           bot.style.left = '20px';
+           }
         } else {
            
             tela.style.left = '-250px';
             bot.style.left = '20px';
+
+            if(alturaTela<600){
+                tela.style.left = '-680px';
+               bot.style.left = '20px';
+               }
            
         }
          
+        
        
       
     }
@@ -58,15 +67,54 @@ function verificarTamanhoTela() {
     bot = document.getElementById("botescondido");
 
     const larguraTela = window.innerWidth;
+    const alturaTela = window.innerHeight;
 
     if (larguraTela < 959 && larguraTela > 680 && bot_op==1) {
         menu=false;
         tela.style.left = '-250px';
         bot.style.left = '20px';
-
+        if(alturaTela<600){
+            tela.style.left = '-680px';
+            bot.style.left = '20px';
+           }
         bot_op=0;
     }
 
+    if (larguraTela < 959 && larguraTela > 680 && menu) {
+        menu=false;
+        if(alturaTela<600){
+            tela.style.left = '-680px';
+            bot.style.left = '20px';
+           }
+           if(alturaTela>600){
+            tela.style.left = '-250px';
+            bot.style.left = '20px';
+           }
+        
+    }
+    if (larguraTela < 959 && larguraTela > 680 && !menu) {
+        
+        if(alturaTela<600){
+            tela.style.left = '-680px';
+            bot.style.left = '20px';
+           }
+           if(alturaTela>=600){
+            tela.style.left = '-680px';
+            bot.style.left = '20px';
+           }
+        
+    }
+
+    if (larguraTela < 680 && !menu) {
+        
+        
+            tela.style.left = '-250px';
+            bot.style.left = '10px';
+          
+        
+    }
+
+    
     if (larguraTela > 959) {
 
         bot_op=1;

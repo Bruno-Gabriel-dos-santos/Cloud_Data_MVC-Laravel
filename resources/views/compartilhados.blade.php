@@ -16,7 +16,7 @@
 
             <p class="p1">@php echo $nick; @endphp</p>
             <p class="p2"> Bruno Cloud Data online</p>
-
+<div class="container-10">
             <li id="esp">
                 <a href="arquivos" style="color:white;text-decoration:none ;">      <ul class="ulmenu"><p class="p3" >Todos os Arquivos </p> </ul></a>
                 <a href="fotos" style="color:white;text-decoration:none ;">         <ul class="ulmenu"><p class="p3"> Fotos </p>             </ul></a>
@@ -26,7 +26,7 @@
                 <a href="planos" style="color:white;text-decoration:none ;">        <ul class="ulmenu"><p class="p3"> Planos </p>            </ul></a>
                 <a href="logout" style="color:white;text-decoration:none ;">        <ul class="ulmenu"><p class="p3"> logout </p>            </ul></a>
             
-            </li>
+            </li></div>
             <hr style="width: 80%;margin-top: 15px;">
             
             <div class="barramemoria">
@@ -56,7 +56,7 @@
             <button type="submit"> pesquisar </button>
         </form>
 
-        <div style="margin-top:10px;margin-botton:10px;padding:10px;padding-top:15px;padding-bottom:15px;width:410px;background-Color:#080f35;border-radius:5px;">
+        <div class="lkcomp lmt">
             <p class="texto-branco inline">Link para compartilhamento</p>
             <p class="texto-branco borda-azul mt-1">{{$url_publica}} </p>
         </div>
@@ -69,7 +69,7 @@
     <br>
     
     @for ($i = 1; $i <= 15; $i++)
-    <ul class="ullista2 hov" style="display: {{ $displayarquivo[$i] }}">
+    <ul class="ullista hov" style="display: {{ $displayarquivo[$i] }}">
         <div class="divisor">
             <br>
             <p class="plista branco">{{ $nomearquivo[$i] }}</p>

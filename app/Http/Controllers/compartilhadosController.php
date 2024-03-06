@@ -157,7 +157,7 @@ class compartilhadosController extends Controller
             $valordapagina = "página " . $valordapaginaatual . " de " . $valortotaldapagina;
             $inicionomes = session('nomesdado');
             //$url_publica="https://www.site.com/publica/".$nick;
-            $url_publica="/publico"."/".$nick;
+            $url_publica="https://cloud-data.rede-iroha.com/publico"."/".$nick;
             
         return view('compartilhados', compact('nick', 'displayarquivo', 'nomearquivo', 'linkbaixar', 'identificador', 'valordapagina','total_de_dados_utilizados','porcentagem_total','porcentagem_grafica','url_publica'));
 

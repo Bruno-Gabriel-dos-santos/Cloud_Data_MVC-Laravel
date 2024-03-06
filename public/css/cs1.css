@@ -76,6 +76,23 @@ p{
 .intro{
     font-size:36px ;margin-bottom: 25px;margin-top:25px;
 }
+
+.lkcomp{
+    margin-top:10px;
+    margin-botton:10px;
+    padding:10px;
+    padding-top:15px;
+    padding-bottom:15px;
+    width:410px;
+    background-Color:#080f35;
+    border-radius:5px;
+}
+
+.lmt{
+    
+    max-width:350px;
+}
+
 #bd{
    background-color: rgb(180, 180, 180);
    height:1500px;
@@ -154,7 +171,262 @@ background-color:  #080f35;}
 
 .mt-1{
     margin-top: 5px;
+
+    
 }
+
+#bd{
+        height: 1650px;
+    }
+    
+    #botescondido{
+        position: fixed;
+        left: 10px;
+        top: 20px;
+        width: 40px;
+        height: 25px;
+        z-index: 999;
+        padding: 5px;
+        background-color: rgb(255, 255, 255);
+    }
+    #botescondido:hover{
+        background-color: rgb(228, 228, 228);
+        cursor: pointer;
+        
+    }
+    #botescondidofaix0{
+        width: 40px;
+        height: 5px;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    #botescondidofaix1{
+        margin-top: 5px;
+        width: 40px;
+        height: 5px;
+        background-color: rgb(0, 0, 0);
+    }
+    #telazul{
+        position: fixed;
+        top: 0;
+        width: 250px;
+        height: 100%;
+        z-index: 979;
+        left: -250px;
+        
+    }
+
+    .menuprincipal{
+       position: fixed;
+        width: 250px;
+        height: 1800px;
+       
+        left: -250px;
+    
+    }
+    .p1{
+        text-align: right;
+        font-size: 26px;
+        padding-top: 30px;
+        padding-right: 25px;
+       
+    }
+    .p2{
+        text-align: right;
+        font-size: 13px;
+        padding-top: 2px;
+        padding-right: 25px;
+       
+    }
+    .p3{
+        position: relative;
+        top: 10px;
+        margin-right: 50px;
+        font-size: 15px;
+        text-align: right;
+        
+    }
+    .arm1{
+        height: 10px;
+        width: 150px;
+        background-color: white;
+        border-radius: 2px;
+        margin-left: 50px;
+    }
+    .arm2{
+        height: 8px;
+        width: 140px;
+        background-color: rgb(0, 162, 255);
+        border-radius: 2px;
+        margin-left: 55px;
+        position: relative;
+        top: -9px;
+    }
+   .hrprincipal{
+    width: 400px;
+    margin-left:0px ;
+   }
+    #esp{
+        margin-top: 40px;
+    }
+    .ulmenu{
+        width: 250px;
+        height: 40px;
+        cursor: pointer;
+        margin-top: 10px;
+        
+        
+    }
+    .ullista{
+        width: 400px;
+        height: 80px;
+        
+        margin-top: 10px;
+        margin-left:-5px;
+        background-color: rgb(197, 197, 197);
+   }
+
+   .ullista2{
+    width: 400px;
+    height: 80px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: rgb(197, 197, 197);
+    }
+    .ullista2:hover{
+        width: 400px;
+        height: 80px;
+        cursor: pointer;
+        margin-top: 10px;
+       
+   }
+   .plista{
+    
+    text-align: center;
+    max-width: 380px; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    
+   }
+   .divisor{
+    width: 380px;
+    height: 50px;
+    margin-left: 10px;
+    
+   }
+   .botbaixar{
+    position: relative;
+    top: 5px;
+    left: 75px;
+    width: 90px;
+    height: 20px;
+    margin-left: 20px;
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+   }
+   .botbaixar2{
+    position: relative;
+    top: -5px;
+    right: 140px;
+    float: right;
+    width: 120px;
+    height: 25px;
+    
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+   }
+   .botexcluir{
+    position: relative;
+    top: 5px;
+    left: 75px;
+    width: 90px;
+    height: 20px;
+    margin-left: 20px;
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+   }
+   
+
+   .botpasspagina{
+    position: relative;
+    top: 45px;
+    left: 20px;
+    width: 120px;
+    height: 20px;
+    margin-left: 10px;
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+    background-color: white;
+ 
+
+   }
+   .botupload{
+    margin-left:5px ;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 180px;
+    height: 25px;
+    background-color:white ;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+   }
+    .select{
+        width: 250px;
+        height: 40px;
+        cursor: pointer;
+        margin-top: 10px;
+        background-color: #007bff;
+
+    }
+    
+    ul:hover .p3{
+       
+        background-color:rgba(70, 72, 72, 255);
+        color: white;
+    }
+    .ulmenu:hover{
+       
+        background-color:rgba(70, 72, 72, 255);
+        
+    }
+    .select:hover{
+        background-color:rgba(70, 72, 72, 255);
+        
+    }
+    .imagem{
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: -7px;
+        margin-left: 40px;
+    }
+
+ 
+    #principal{
+       
+        width: 80%;
+        
+        position: relative;
+        left: 10px;
+        top: 60px;
+        
+        
+    }
+    .enviaarquivos{
+        background-color: rgb(212, 212, 212);
+        height: 115px;
+        width: 350px;
+        position: relative;
+        left: 17px;
+        top: 10px;
+        border-radius: 5px;
+        display: none;
+    }
 
 @media screen and (min-width: 400px) and (max-width: 680px) {
     
@@ -202,7 +474,7 @@ background-color:  #080f35;}
     .menuprincipal{
        position: fixed;
         width: 250px;
-        height: 800px;
+        height: 1800px;
        
         left: -250px;
     
@@ -408,8 +680,14 @@ background-color:  #080f35;}
         border-radius: 5px;
         display: none;
     }
+    .lmt{
+         max-width:410px;
+}
+
 }
 @media screen and (min-width: 680px) and (max-width: 959px) {
+    
+  
    
     #botescondido{
         position: fixed;
@@ -453,11 +731,14 @@ background-color:  #080f35;}
     .menuprincipal{
        position: fixed;
         width: 250px;
-        height: 800px;
-       
+        height: 1800px;
+       top:0;
         left: -250px;
+         
     
     }
+    
+    
     .p1{
         text-align: right;
         font-size: 26px;
@@ -644,6 +925,7 @@ background-color:  #080f35;}
        
         width: 85%;
         position: relative;
+        z-index:996;
         left: 8%;
         top: 0;
         
@@ -659,9 +941,117 @@ background-color:  #080f35;}
         border-radius: 5px;
         display: none;
     }
+    
+    .lmt{
+         max-width:570px;
+    }
+    .lkcomp{
+        width:570px;
+    }
+    @media screen and (max-height: 600px) {
+
+       
+
+        #botescondido{
+            position: fixed;
+            left: 20px;
+            top: 20px;
+            width: 40px;
+            height: 25px;
+            z-index: 999;
+            padding: 15px;
+            background-color: rgb(255, 255, 255);
+        }
+        #telazul{
+            position: relative;
+            width: 680px;
+            height: 100%;
+            z-index: 997;
+            left: -680px;
+        }
+        .select:hover{
+            background-color:gray;
+            
+        }
+        ul:hover .p3{
+       
+            background-color:gray;
+            color: white;
+        }
+        .ulmenu:hover{
+           
+            background-color:gray;
+            
+        }
+    
+        .menuprincipal{
+           position: fixed;
+            width: 680px;
+            height: 1800px;
+            z-index:997;
+           top:0;
+            left: -680px;
+             
+        
+        }
+        #esp {
+            list-style-type: none; /* Remove os marcadores de lista */
+            display: flex; /* Torna o contêiner um flex container */
+            flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+            justify-content: space-between; /* Distribui os itens horizontalmente */
+            margin-top: 10px;
+        }
+    
+        .container-10{
+            margin: 10px;
+            margin-right:20px;
+        }
+        /* Estilo para cada item <a> */
+        #esp a {
+            text-decoration: none;
+            color: white;
+            width: calc(20% - 0px); /* Define a largura de cada item para ocupar 25% da largura do contêiner com um espaço de 10px entre eles */
+            margin: 10px; /* Adiciona um espaço entre os itens */
+            height: 45px;
+        }
+    
+      
+        /* Estilo para cada item <ul> */
+        .ulmenu {
+            padding: 0; /* Remove o preenchimento padrão */
+            margin: 0; /* Remove a margem padrão */
+            width: 150px;
+            height: 45px;
+            text-align: center;
+            background-color: rgba(255,255,255,0.3);
+            border-radius: 10px;
+        }
+
+        .select {
+            padding: 0; /* Remove o preenchimento padrão */
+            margin: 0; /* Remove a margem padrão */
+            width: 150px;
+            height: 45px;
+            border-radius: 10px;
+
+        }
+    
+        /* Estilo para cada item <p> */
+        .p3 {
+            margin: 0; /* Remove a margem padrão */
+            text-align: center;
+        }
+    
+        /* Estilo para garantir que haja no máximo 4 itens na primeira linha */
+       
+    }
 }
 
 @media screen and (min-width: 960px) and (max-width: 1300px) {
+    
+    #botescondido{
+       display:none;
+    }
     
     #telazul{
         position: fixed;
@@ -674,7 +1064,7 @@ background-color:  #080f35;}
     .menuprincipal{
        position: fixed;
         width: 250px;
-        height: 800px;
+        height: 1800px;
       
         
     
@@ -879,9 +1269,19 @@ background-color:  #080f35;}
         border-radius: 5px;
         display: none;
     }
+        .lmt{
+         max-width:570px;
+    }
+    .lkcomp{
+        width:570px;
+    }
 }
 @media screen and (min-width: 1300px) and (max-width: 1600px) {
 
+    #botescondido{
+       display:none;
+    }
+    
     #telazul{
         position: fixed;
         top:0;
@@ -893,7 +1293,7 @@ background-color:  #080f35;}
     .menuprincipal{
        position: fixed;
         width: 250px;
-        height: 800px;
+        height: 1800px;
        
         
     
@@ -1098,11 +1498,23 @@ background-color:  #080f35;}
         border-radius: 5px;
         display: none;
     }
+    
+        .lmt{
+         max-width:870px;
+    }
+    .lkcomp{
+        width:870px;
+    }
 }
 
 
 
 @media screen and (min-width: 1600px) and (max-width: 1920px) {
+    
+     #botescondido{
+       display:none;
+    }
+    
     #telazul{
         position: fixed;
         top:0;
@@ -1115,7 +1527,7 @@ background-color:  #080f35;}
     .menuprincipal{
        position: fixed;
         width: 300px;
-        height: 1200px;
+        height: 3900px;
        
         
     
@@ -1321,10 +1733,22 @@ background-color:  #080f35;}
         border-radius: 5px;
         display: none;
     }
+    
+     .lmt{
+         max-width:1170px;
+    }
+    .lkcomp{
+        width:1170px;
+    }
 
 }
 
 @media screen and (min-width: 1920px)  {
+    
+     #botescondido{
+       display:none;
+    }
+    
     #telazul{
         position: fixed;
         top:0;
@@ -1336,7 +1760,7 @@ background-color:  #080f35;}
     .menuprincipal{
        position: fixed;
         width: 300px;
-        height: 1400;
+        height: 4400;
         
         
     
@@ -1543,6 +1967,13 @@ background-color:  #080f35;}
         top: 10px;
         border-radius: 5px;
         display: none;
+    }
+    
+   .lmt{
+         max-width:1170px;
+    }
+    .lkcomp{
+        width:1170px;
     }
 
 

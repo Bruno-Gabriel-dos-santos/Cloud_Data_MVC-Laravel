@@ -19,7 +19,7 @@
 
             <p class="p1">@php echo $nick; @endphp</p>
             <p class="p2"> Bruno Cloud Data online</p>
-
+<div class="container-10">
             <li id="esp">
                 <a href="arquivos" style="color:white;text-decoration:none ;">      <ul class="ulmenu"><p class="p3" >Todos os Arquivos </p> </ul></a>
                 <a href="fotos" style="color:white;text-decoration:none ;">         <ul class="ulmenu"><p class="p3"> Fotos </p>             </ul></a>
@@ -29,7 +29,7 @@
                 <a href="planos" style="color:white;text-decoration:none ;">        <ul class="select"><p class="p3"> Planos </p>            </ul></a>
                 <a href="logout" style="color:white;text-decoration:none ;">        <ul class="ulmenu"><p class="p3"> logout </p>            </ul></a>
             
-            </li>
+            </li></div>
             <hr style="width: 80%;margin-top: 15px;">
 
 
@@ -82,7 +82,7 @@
     <button type="submit" class="link-botao" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease;">Cadastrar</button>
 </form>
 
-    <p style="font-size:40px ;margin-bottom: 25px;margin-top:50px;">Informações do seu Plano Atual <span style="font-size:50px"> ᪳ </span></p>
+    <p style="font-size:40px ;margin-bottom: 25px;margin-top:50px;">Informações do seu Plano Atual <span style="font-size:50px;margin-left:15px;"> ᪳ </span></p>
     <br><br>
 
     <p class="text-planos"> Usuario: {{$nick}}</p>

@@ -68,7 +68,7 @@ class enviarController extends Controller
 
 
                     if($total_de_amostragem_utilizados>=$dados_do_plano){
-                        return redirect('/planos');
+                        return redirect('https://cloud-data.rede-iroha.com/planos');
                         
 
                     }

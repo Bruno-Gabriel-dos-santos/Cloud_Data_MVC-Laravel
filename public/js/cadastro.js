@@ -71,7 +71,7 @@ function cad(){
     var capcha=[cap];
     
     console.log(capcha)
-    xhr.open("POST","/novocadastro",true);
+    xhr.open("POST","https://cloud-data.rede-iroha.com/novocadastro",true);
     xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
     xhr.send(capcha);
 

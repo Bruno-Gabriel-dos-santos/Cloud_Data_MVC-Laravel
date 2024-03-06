@@ -16,7 +16,7 @@
 
             <p class="p1">@php echo $nick; @endphp</p>
             <p class="p2"> Bruno Cloud Data online</p>
-
+<div class="container-10">
             <li id="esp">
                 <a href="arquivos" style="color:white;text-decoration:none ;">      <ul class="select"><p class="p3" >Todos os Arquivos </p> </ul></a>
                 <a href="fotos" style="color:white;text-decoration:none ;">         <ul class="ulmenu"><p class="p3"> Fotos </p>             </ul></a>
@@ -26,7 +26,7 @@
                 <a href="planos" style="color:white;text-decoration:none ;">        <ul class="ulmenu"><p class="p3"> Planos </p>            </ul></a>
                 <a href="logout" style="color:white;text-decoration:none ;">        <ul class="ulmenu"><p class="p3"> logout </p>            </ul></a>
             
-            </li>
+            </li></div>
             <hr style="width: 80%;margin-top: 15px;">
 
             <div class="barramemoria">

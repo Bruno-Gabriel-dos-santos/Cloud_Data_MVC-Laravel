@@ -42,6 +42,8 @@ use App\Http\Controllers\planosController;
 
 Route::get('/', [indexController::class, 'index'])->name('index');
 
+Route::get('/public', [indexController::class, 'index']);
+
 Route::post('/login', [loginController::class, 'login'])->middleware(VerificaLogin::class)->name('login');
 Route::get('/login', function () {
     return redirect('/');
