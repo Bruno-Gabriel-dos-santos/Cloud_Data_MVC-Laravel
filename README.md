@@ -1,9 +1,13 @@
 
 Website de Armazenamento de Dados na Nuvem Cloud-Data
-!(https://github.com/Bruno-Gabriel-dos-santos/Cloud_Data_MVC-Laravel/blob/main/imagem/Screenshot%20from%202024-03-11%2010-34-52.png)
-!(https://github.com/Bruno-Gabriel-dos-santos/Cloud_Data_MVC-Laravel/blob/main/imagem/Screenshot%20from%202024-03-11%2010-34-00.png)
-!(https://github.com/Bruno-Gabriel-dos-santos/Cloud_Data_MVC-Laravel/blob/main/imagem/Screenshot%20from%202024-03-11%2010-34-07.png)
-!(https://github.com/Bruno-Gabriel-dos-santos/Cloud_Data_MVC-Laravel/blob/main/imagem/Screenshot%20from%202024-03-11%2010-36-34.png)
+![Screenshot 1](https://github.com/Bruno-Gabriel-dos-santos/Cloud_Data_MVC-Laravel/raw/main/imagem/Screenshot%20from%202024-03-11%2010-34-52.png)
+
+![Screenshot 2](https://github.com/Bruno-Gabriel-dos-santos/Cloud_Data_MVC-Laravel/raw/main/imagem/Screenshot%20from%202024-03-11%2010-34-00.png)
+
+![Screenshot 3](https://github.com/Bruno-Gabriel-dos-santos/Cloud_Data_MVC-Laravel/raw/main/imagem/Screenshot%20from%202024-03-11%2010-34-07.png)
+
+![Screenshot 4](https://github.com/Bruno-Gabriel-dos-santos/Cloud_Data_MVC-Laravel/raw/main/imagem/Screenshot%20from%202024-03-11%2010-36-34.png)
+
 Mais imagens na pasta imagem !!!!
 
 Descrição
