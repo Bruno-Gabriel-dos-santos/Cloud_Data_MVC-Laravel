@@ -1,66 +1,45 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Website de Armazenamento de Dados na Nuvem Cloud-Data
+!(https://github.com/Bruno-Gabriel-dos-santos/Cloud_Data_MVC-Laravel/blob/main/imagem/Screenshot%20from%202024-03-11%2010-34-52.png)
+!(https://github.com/Bruno-Gabriel-dos-santos/Cloud_Data_MVC-Laravel/blob/main/imagem/Screenshot%20from%202024-03-11%2010-34-00.png)
+!(https://github.com/Bruno-Gabriel-dos-santos/Cloud_Data_MVC-Laravel/blob/main/imagem/Screenshot%20from%202024-03-11%2010-34-07.png)
+!(https://github.com/Bruno-Gabriel-dos-santos/Cloud_Data_MVC-Laravel/blob/main/imagem/Screenshot%20from%202024-03-11%2010-36-34.png)
+Mais imagens na pasta imagem !!!!
 
-## About Laravel
+Descrição
+Bem-vindo ao sistema de armazenamento de dados na nuvem Cloud-Data-MVC_Laravel_10 ! O sistema oferece uma plataforma robusta para armazenar e compartilhar arquivos na nuvem ou em servidores locais. O site é construído usando PHP 8.2 Laravel MVC, garantindo uma estrutura de código eficiente e organizada alem de ter sido criado com desing responsivo pensado em plataforma desktop sendo ideal para usar em ambientes locais ou em nuvem pessoais ou de pequenas e medias empresas. O site conta com diversos sistemas entre eles um sistema de compartilhamento por link que somado ao layout linmpo e fluido do site deixa as tarefas de compartilhar dados do dia a dia um processo natual. Conta tambem com um bom demostrativo de uso de recursos e com planos para poder limitar os recursos para cada usuario a medida do necessario, assim não exedendo o limite de recursos e mantendo o sistema confiavel para ser usado por diversos membros. 
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Recursos
+Design Responsivo: O website possui um design responsivo, garantindo usabilidade perfeita em diversos dispositivos.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Sistema de Rotas: Foi implementado um sistema de rotas robusto para uma navegação eficiente em todo o site.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Arquitetura MVC: O site segue o padrão arquitetural Modelo-Visão-Controlador (MVC), aprimorando a manutenibilidade e escalabilidade.
 
-## Learning Laravel
+Sistema de Migração: Com o sistema de migration, gerenciar o banco de dados torna-se uma tarefa simples, facilitando o manuseio dos dados.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Sistema de Cadastro Estilizado: Experimente um processo de cadastro visualmente atraente, que é tanto amigável ao usuário quanto elegante.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Seção Informativa de Recursos: Saiba mais sobre os recursos disponíveis e utilizados em nossa plataforma por meio de nossa seção informativa.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Sistema de Busca: Encontre facilmente os arquivos que precisa com nossa funcionalidade de busca eficiente.
 
-## Laravel Sponsors
+Seletores de Conteúdo: Organize seus arquivos facilmente com nossos seletores de conteúdo, simplificando o gerenciamento de arquivos.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Versatilidade
+Nosso sistema é projetado para ser prático e versátil, atendendo às necessidades de indivíduos, bem como de pequenas e médias empresas (PMEs). Seja para uso pessoal ou operações comerciais, o Cloud-Data-mvc oferece uma solução que se adapta às suas necessidades.
 
-### Premium Partners
+Pilha Tecnológica
+Frontend: Design intuitivo e responsivo é desenvolvido usando HTML e CSS, sem depender de frameworks.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+Backend: O site foi projetado com PHP8.2 usando laravel mvc, foi feita a modelagem de banco de dados e criado migrations para facilitar a implementação do site, foi introduzido um sistema de rotas bem estruturado e middlewares para fazer todas as verificações e processos de segurança necessarios.
 
-## Contributing
+Licença MIT
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Direitos autorais (c) 2024 Bruno Gabriel dos Santos
 
-## Code of Conduct
+A permissão é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia deste software e dos arquivos de documentação associados (o "Software"), para lidar com o Software sem restrições, incluindo, sem limitação, os direitos de usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e / ou vender cópias do Software, e para permitir que as pessoas a quem o Software é fornecido o façam, sujeitas às seguintes condições:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+O aviso de direitos autorais acima e este aviso de permissão devem ser incluídos em todas as cópias ou partes substanciais do Software.
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+O SOFTWARE É FORNECIDO "COMO ESTÁ", SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU IMPLÍCITA, INCLUINDO, MAS NÃO SE LIMITANDO ÀS GARANTIAS DE COMERCIALIZAÇÃO, APTIDÃO PARA UM PROPÓSITO ESPECÍFICO E NÃO VIOLAÇÃO. EM NENHUM CASO OS AUTORES OU TITULARES DE DIREITOS AUTORAIS SERÃO RESPONSÁVEIS POR QUALQUER REIVINDICAÇÃO, DANOS OU OUTRA RESPONSABILIDADE, SEJA EM AÇÃO DE CONTRATO, DELITO OU DE OUTRA FORMA, DECORRENTE DE, FORA DE OU EM CONEXÃO COM O SOFTWARE OU O USO OU OUTRAS NEGOCIAÇÕES NO PROGRAMAS.
