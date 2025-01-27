@@ -53,25 +53,25 @@ xhr.onreadystatechange = function(){
  
 
 function cad(){
-     dado1="capcha=";
+    
      dado2="nick=";
      dado3="senha=";
      senha=document.getElementById("senha").value;
      nic=document.getElementById("nick").value;
-     capacha=document.getElementById("capcha").value;
+    
      
   
 
     // Obtém o token CSRF do meta tag no HTML
     var token = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
 
-    var cap = dado2 + nic + "&" + dado3 + senha + "&" + dado1 + capacha + "&_token=" + token;
+    var cap = dado2 + nic + "&" + dado3 + senha + "&_token=" + token;
 
     
     var capcha=[cap];
     
-    console.log(capcha)
-    xhr.open("POST","https://cloud-data.rede-iroha.com/novocadastro",true);
+   
+    xhr.open("POST","http://127.0.0.1:8000/novocadastro",true);
     xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
     xhr.send(capcha);
 

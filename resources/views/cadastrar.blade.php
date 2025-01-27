@@ -34,9 +34,7 @@
 				<label for="password">Senha</label>
 				<input type="password" placeholder="Digite sua Senha" id="senha" name="senha">
 
-				<label for="capcha">Captcha</label>
-				<img class="center" src="{{ route('captcha') }}">
-				<input class="tipoinput" id="capcha"> 
+				
 
 				<button onclick="cad()" style="color:black">Cadastrar</button>
 

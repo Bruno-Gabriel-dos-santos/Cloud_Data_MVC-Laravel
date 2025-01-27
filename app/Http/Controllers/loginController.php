@@ -100,7 +100,7 @@ class loginController extends Controller
         // Captura os valores do formulário
         $nick = $request->input('nick', '0');
         $senha = $request->input('senha', '0');
-        $capcha = $request->input('capcha', '0');
+       
 
         $autentificacao_string=$nick.$senha;
 
@@ -113,15 +113,11 @@ class loginController extends Controller
         $retorno3 = 3;
 
         // Verifica se todos os campos foram preenchidos
-        if ($nick == '0' || $senha == '0' || $capcha == '0') {
+        if ($nick == '0' || $senha == '0' ) {
             return 0;
         }
 
-        // Verifica se o CAPTCHA está correto
-        $cap = cap::where('valor', $capcha)->first();
-        if (!$cap) {
-            return 3; // CAPTCHA incorreto
-        }
+       
 
         // Verifica se o nick já existe
         $usuarioExistente = usuario::where('nick', $nick)->first();
