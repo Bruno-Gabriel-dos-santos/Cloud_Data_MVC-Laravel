@@ -92,6 +92,7 @@
             <p style="display:none" id="identificador{{ $i }}">{{ $identificador["$i"] }}</p>
         </div>
 
+        
         <form style="display:inline;" action="baixar" method="post">
         @csrf
             <button class="botbaixar" type="submit" name="botbaixar" value="baixar">Baixar</button>
