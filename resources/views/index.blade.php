@@ -39,12 +39,12 @@
 		@error('senha')
 			<div class="alert alert-danger">O campo Senha esta incorreto ou não foi preenchido</div>
 		@enderror
-        <button type="submit" class="black">Login</button>
+        <button type="submit" class="black hover-branco">Login</button>
         <div class="social">
-          <div class="go" style="cursor: pointer;" onclick="funccadastrar()"> Cadastrar</div>
+          <div class="go " style="cursor: pointer;" onclick="funccadastrar()"> Cadastrar</div>
           <div class="fb" style="cursor: pointer;" onclick="funccontato()"> Contato</div>
         </div>
-    </form>
+    </form> 
 	<script src="{{asset('js/trocanome.js')}}"></script>
 </body>
 </html>
