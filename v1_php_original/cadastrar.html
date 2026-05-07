@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Bruno Cloud Data</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Bruno Cloud Data</h1>
+						<p>Cadastro Inicial Bruno Cloud Data</p>
+						
+						<p class="par">Nick</p>
+						<input class="tipoinput" id="nick">
+						<p class="par">Senha</p>
+						<input class="tipoinput" id="senha"> 
+						<p class="par">capcha</p>
+						<img src="capcha.php" >
+						<input class="tipoinput" id="capcha"> 
+
+						<button class="tipobotao" style="display: inline;color: white;font-size: 18px;" onclick="cad()">cadastrar</button>
+						<button class="tipobotao" style="display: inline;color: white;font-size: 18px;" onclick="inicio()">inicio</button>
+
+						<div class="confirmacao"></div>
+						<div style="width:250px;height:30px;background-color:rgba(0,200,0,0.25);margin:auto;border-radius:4px;margin-top:20px;display: none;" id="resultado"><p style="text-align:center;" id="resultadoparag">Cadastrado com sucesso</p></div>
+
+						
+					</header>
+					
+					
+					
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Serviço prestado por  <a href="http://html5up.net">Bruno Gabriel dos Santos</a>.</span>
+					</footer>
+
+			</div>
+		</div>
+		<script src="assets/js/cadastro.js"></script>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>

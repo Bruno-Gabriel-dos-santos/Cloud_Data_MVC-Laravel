@@ -1,0 +1,37 @@
+
+
+1 criar database de uso : DB_cloud
+
+CREATE DATABASE DB_cloud;
+
+2 criar usuario userCloud 
+
+CREATE USER 'user_cloud'@'localhost' IDENTIFIED BY 'uma_senha';
+GRANT ALL PRIVILEGES ON DB_cloud.* TO 'user_cloud'@'localhost' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+
+3 criando a table cap para o captcha , apos use o arquvo geradorcapcha e gera os capchas necessarios para a validação !!!
+
+CREATE TABLE cap (
+    numero INT AUTO_INCREMENT PRIMARY KEY,
+    valor VARCHAR(255)
+);
+
+4 criando a table usuario
+
+CREATE TABLE usuarios (
+    idpasta INT AUTO_INCREMENT PRIMARY KEY,
+    nick VARCHAR(255),
+    senha VARCHAR(255)
+);
+
+5 criando a classe dados
+
+CREATE TABLE dados (
+    idarq INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255),
+    formato INT,
+    classe VARCHAR(255),
+    nick VARCHAR(255)
+);
+
